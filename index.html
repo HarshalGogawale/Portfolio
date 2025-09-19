@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshal's Portfolio</title>
+  <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container">
+      <h1>Harshal Gogawale</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section with Center Photo -->
+  <section id="hero">
+    <div class="hero-container">
+      <img src="./HarshalPhoto.jpeg" alt="Harshal Gogawale">
+      <h1>Harshal Gogawale</h1>
+      <p>Java Full Stack Developer | B.E. Computer Science and Engineering</p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">Contact Me</a>
+        <a href="./Main.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-card">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am <span class="highlight">Harshal</span>, a passionate 
+        <span class="highlight">Web Developer</span>. I enjoy creating 
+        <span class="highlight">beautiful</span> and 
+        <span class="highlight">functional</span> websites using 
+        <span class="highlight">HTML, CSS, and JavaScript</span>. 
+        I also have experience in <span class="highlight">Java</span> 
+        and <span class="highlight">MySQL</span>. I love learning new 
+        technologies and building projects that make a difference.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>MySQL</h3>
+          <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>Java</h3>
+          <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>DoS Attack Detection using Edge Machine Learning</h3>
+          <p>
+            Designed a machine learning-based system to detect DoS attacks 
+            in real time using <strong>Python</strong> and 
+            <strong>LSTM neural networks</strong>. 
+            Focused on identifying malicious traffic patterns and 
+            improving network security.
+          </p>
+          <a href="#" target="_blank">View Details</a>
+        </div>
+        <div class="project-card">
+          <h3>Hostel Management System</h3>
+          <p>
+            Built a full-stack web application using 
+            <strong>HTML, CSS, JavaScript, PHP, and MySQL</strong> 
+            for managing hostel operations like room allocation, 
+            student records, and payments.
+          </p>
+          <a href="#" target="_blank">View Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <p id="formMessage"></p>
+      </form>
+      <p><b>Email :</b>harshalgogawale68@gmail.com</p>
+      <p><b>LinkedIn :</b><a href="https://www.linkedin.com/in/harshal-satish-gogawale-4355862a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">View Profile</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Developed by Harshal Gogawale</p>
+  </footer>
+
+  <script src="./Script.js"></script>
+</body>
+</html>
