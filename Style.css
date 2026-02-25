@@ -1,0 +1,224 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9ff;
+  color: #333;
+}
+
+/* ===== Header / Navbar ===== */
+header {
+  background: #6702af;
+  color: white;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: rgb(195, 194, 247);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+/* ===== Hero Section ===== */
+#hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 60px;
+  /* background: linear-gradient(135deg, #4b0082, #6622aa); */
+  background-color: #270242;
+  color: white;
+}
+
+#hero img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 6px;
+  background: white;
+  color: #4b0082;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: orange;
+  color: black;
+}
+
+.btn-outline {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: #4b0082;
+}
+
+/* ===== About Section ===== */
+#about {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.about-card {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.highlight {
+  color: #35015a;
+  font-weight: bold;
+}
+
+/* ===== Skills Section ===== */
+#skills {
+  padding: 60px 20px;
+  background: #f9f9ff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.skill-bar {
+  background: #ddd;
+  border-radius: 10px;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.skill-level {
+  background: #4b0082;
+  height: 10px;
+  width: 0;
+  border-radius: 10px;
+  transition: width 1.5s ease-in-out;
+}
+
+/* ===== Projects Section ===== */
+#projects {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Internship Section ===== */
+#internship {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.internship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.internship-card {
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.internship-card:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Contact Section ===== */
+ #contact {
+  padding: 60px 20px;
+  background: #f9f9ff;
+  text-align: center;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #6702af;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
